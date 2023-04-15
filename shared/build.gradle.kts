@@ -81,3 +81,7 @@ android {
         jvmToolchain(11)
     }
 }
+dependencies {
+    implementation("androidx.compose.ui:ui-tooling-preview:1.4.1")
+    debugImplementation("androidx.compose.ui:ui-tooling:1.4.1")
+}
